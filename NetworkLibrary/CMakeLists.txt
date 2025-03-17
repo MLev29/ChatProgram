@@ -25,7 +25,7 @@ file(GLOB_RECURSE TARGET_EXTRA_FILES
 
 set(TARGET_FILES ${TARGET_HEADER_FILES} ${TARGET_SOURCE_FILES} ${TARGET_EXTRA_FILES})
 
-# Create Visual Studio filters
+# Create Visual Studio filter
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${TARGET_FILES})
 
 add_library(${TARGET_NAME})

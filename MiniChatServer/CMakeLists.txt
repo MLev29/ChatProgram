@@ -1,8 +1,6 @@
 # Network/MiniChatServer/CMakeLists.txt
+get_filename_component(TARGET_NAME ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 
-if (NOT TARGET_NAME)
-	get_filename_component(TARGET_NAME ${CMAKE_CURRENT_SOURCE_DIR} NAME)
-endif()
 
 # Get all header files recursively
 file(GLOB_RECURSE TARGET_HEADER_FILES
