@@ -9,7 +9,7 @@ Example of client (2 top windows) and the server console (bottom left) with  the
 ### Features
 - Handles both IPV4 and IPV6 IP address
 - The clients and server use event polling to prevent blocking calls
-- Close server via the `!closeServer` command on any clients
+- Close server via the `!closeServer` command from any clients
 - Clients can set a username
 
 ### Dependencies
